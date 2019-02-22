@@ -11,7 +11,17 @@
     <modules>
         <module>io-astor-boy</module>
         <module>nio-astor-boy</module>
+        <module>serialize-astor-boy</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
 
 
 </project>
